@@ -1,2 +1,2 @@
-FROM nginx@sha256:9d8b8190c12a294e8c676fdc3c8e3873c3408b45b33c355aecfcd4e73450b4db
+FROM nginx@sha256:f1f025c6b59fd95ea9423beb3b2a068f0e806a590250c88db74fdc3085252450
 COPY ./nginx.conf /etc/nginx/nginx.conf
