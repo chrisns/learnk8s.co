@@ -1,3 +1,3 @@
-FROM nginx@sha256:b5b9e01613537b740e597a1aca6b8670a48f2f46493be50775567b09a61465a5
+FROM nginx@sha256:553f64aecdc31b5bf944521731cd70e35da4faed96b2b7548a3d8e2598c52a42
 COPY ./nginx.conf /etc/nginx/nginx.conf
 COPY ./learnk8s-logo.svg /usr/share/nginx/html/learnk8s-logo.svg
